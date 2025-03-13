@@ -1,8 +1,8 @@
 import { ConfigService } from '@nestjs/config';
 import { TypeOrmModuleOptions } from '@nestjs/typeorm';
-import { Book } from 'src/entities/book.entity';
-import { Issue } from 'src/entities/issue.entity';
-import { User } from 'src/entities/user.entity';
+import { Book } from '../entities/book.entity';
+import { Issue } from '../entities/issue.entity';
+import { User } from '../entities/user.entity';
 
 //TypeORM Configuration for Postgres Database
 
